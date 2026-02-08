@@ -9,21 +9,29 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- CONFIGURATION DES LIENS DE CONTACT ---
     const contactLinks = [
         {
-            name: 'TELEGRAM PRINCIPAL 🥇',
-            url: '',
+            name: 'CANAL PRINCIPAL 🥇',
+            url: 'https://t.me/+1RUmfDaySF85OGNk',
             icon: '#icon-telegram',
             id: 'telegram-main',
             className: 'telegram-main', // Référence le CSS Bleu
-            text: "TELEGRAM PRINCIPAL 🥇"
+            text: "CANAL PRINCIPAL 🥇"
         },
         {
-            name: 'POTATO PRINCIPAL 🥔',
-            url: '',
-            icon: '#icon-potato',
-            id: 'potato-main',
-            className: 'potato-main', // Référence le CSS Marron/Doré
-            text: "POTATO PRINCIPAL 🥔"
+            name: 'CANAL DE SECOURS 🛟',
+            url: 'https://t.me/+tPne6V4L2d45MWM0',
+            icon: '#icon-telegram',
+            id: 'telegram-secours',
+            className: 'telegram-secours', // Référence le CSS Bleu
+            text: "CANAL DE SECOURS 🛟"
         },
+        {
+            name: 'SNAPCHAT 👻',
+            url: 'https://snapchat.com/t/kkxAPbO5',
+            icon: '#icon-snapchat',
+            id: 'snap-main',
+            className: 'snap-main', // Référence le CSS Marron/Doré
+            text: "SNAPCHAT 👻"
+        }/* ,
         {
             name: 'CANAL LUFFA 🟣',
             url: '',
@@ -39,15 +47,8 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 'insta-main',
             className: 'insta-main', // Référence le CSS Sunset
             text: "PAGE INSTAGRAM 📸"
-        },
-        {
-            name: 'TELEGRAM DE SECOURS 🛟',
-            url: '',
-            icon: '#icon-telegram',
-            id: 'telegram-secours',
-            className: 'telegram-secours', // Référence le CSS Bleu
-            text: "TELEGRAM DE SECOURS 🛟"
-        }
+        } */
+       
     ];
 
     // --- DONNÉES DE L'APPLICATION ---
@@ -70,33 +71,33 @@ document.addEventListener('DOMContentLoaded', function () {
                     products: [
                         {
                             id: 'BLUE_ZUSHI',
-                            name: 'Blue Zushi 🍣',
-                            farm: 'Cali ES',
+                            name: 'BLUE ZUSHI 🥶🍣',
+                            farm: '',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'CategWeed.png', // Remplace par ta vraie photo : 'BlueZushi.jpg'
-                            video: '', 
-                            description: '🍣 Cali ES - Blue Zushi\n\nUne génétique exotique et puissante.',
+                            image: 'ProductBlue.png', // Remplace par ta vraie photo : 'BlueZushi.jpg'
+                            video: 'VideoBlue.mov', 
+                            description: 'Un profil de goût fruité et frais où les notes de baies sucrées et agrumes légers dansent avec une touche mentholée/herbale. En bouche, on retrouve une douceur presque bonbon suivie d’un arrière-goût terreux et légèrement épicé qui prolonge la fumée de manière très agréable.',
                             tarifs: [
-                                { weight: '4g', price: 50.00 },
+                                { weight: '1g', price: 12.00 },
                                 { weight: '9g', price: 100.00 },
                                 { weight: '20g', price: 200.00 },
                             ]
                         },
                         {
-                            id: 'G13',
-                            name: 'G13 💐',
-                            farm: 'Indoor',
+                            id: 'ZOAP',
+                            name: 'ZOAP 🫧',
+                            farm: '',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'CategWeed.png', // Remplace par ta vraie photo : 'G13.jpg'
-                            video: '',
-                            description: '💐 La légendaire G13.\n\nFleurs denses et résineuses.',
+                            image: 'ProductZoap.png', // Remplace par ta vraie photo : 'BlueZushi.jpg'
+                            video: 'VideoZoap.mov', 
+                            description: 'Un mélange fruité et floral dominé par des touches de abricot, pomme et parfois une saveur légèrement “savonneuse” douce, assorties d’un fond terrestre subtil. Le tout donne une fumée fluide et rafraîchissante, parfaite pour ceux qui aiment les profils aromatiques originaux.',
                             tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '11g', price: 100.00 },
+                                { weight: '1g', price: 10.00 },
                             ]
-                        }
+                        },
+                        
                     ]
                 }
             ]
@@ -119,34 +120,18 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Nouveau',
                     products: [
                         {
-                            id: 'CALI_HAZE',
-                            name: 'California Haze ✌🏻',
-                            farm: 'Semi Dry',
+                            id: 'MOUSSEUX',
+                            name: 'JAUNE MOUSSEUX 🧽',
+                            farm: '',
                             promoEligible: false,
                             type: 'Hash',
-                            image: 'CategHash.png', // Remplace par ta vraie photo
-                            video: '',
-                            description: '✌🏻 Semi Dry - California Haze\n\nExcellent rapport qualité/prix.',
-                            // J'ai mis 1g, 5g, 10g basés sur "8/G". Tu peux ajuster.
+                            image: 'ProductMousse.png', // Remplace par ta vraie photo
+                            video: 'VideoMousse.mov',
+                            description: 'Souvent utilisé pour décrire un haschisch artisanal jaune/clair, il offre un goût doux et crémeux, parfois légèrement noisette ou miel, avec une sensation rond et onctueuse en bouche. Ce type de hash peut évoquer une expérience plus classique et chaleureuse que les profils fruités modernes.',
                             tarifs: [
-                                { weight: '1g', price: 8.00 },
-                                { weight: '5g', price: 40.00 },
-                                { weight: '10g', price: 80.00 },
-                            ]
-                        },
-                        {
-                            id: 'TRAP_GRAPEZ',
-                            name: 'Trap Grapez 🍇',
-                            farm: 'Dry Premium - TKF',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'CategHash.png', // Remplace par ta vraie photo
-                            video: '',
-                            description: '🍇 Dry Premium - TKF\n\nTerpènes intenses de raisin.',
-                            tarifs: [
-                                { weight: '4g', price: 50.00 },
-                                { weight: '9g', price: 100.00 },
-                                { weight: '20g', price: 200.00 },
+                                { weight: '1g', price: 6.00 },
+                                { weight: '18g', price: 100.00 },
+                                { weight: '40g', price: 200.00 },
                             ]
                         }
                     ]
