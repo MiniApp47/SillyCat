@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
             farm: '',
             type: 'Weed',
             quality: '🌸 Fleurs 🌸',
-            image: 'CategWeed.png', // Assure-toi d'avoir cette image
+            image: 'CategWeed.jpg', // Assure-toi d'avoir cette image
 
             farms: [
                 {
@@ -110,13 +110,13 @@ document.addEventListener('DOMContentLoaded', function () {
             farm: '',
             type: 'Hash',
             quality: '🍫 Hash 🍫',
-            image: 'CategHash.png', // Assure-toi d'avoir cette image
+            image: 'CategHash.jpg', // Assure-toi d'avoir cette image
 
             farms: [ 
                 {
                     id: 'ALL_HASH',
                     name: 'Tout le Hash',
-                    image: 'CategHash.png',
+                    image: 'CategHash.jpg',
                     badgeText: 'Nouveau',
                     products: [
                         {
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
             farm: '',
             type: 'Others',
             quality: '🍯 OTHERS',
-            image: 'CategNoel.png',
+            image: 'CategNoel.jpg',
             farms: [] // Vide pour l'instant
         }
     ];
