@@ -133,6 +133,19 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '18g', price: 100.00 },
                                 { weight: '40g', price: 200.00 },
                             ]
+                        },
+                        {
+                            id: 'T-Cake – Drysift 120µ 🫒🎂',
+                            name: 'T-Cake – Drysift 120µ 🫒🎂',
+                            farm: '',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductTcake.jpg', // Remplace par ta vraie photo
+                            video: 'VideoTcake.mov',
+                            description: 'Drysift clair et propre, à l’aspect sec et bien travaillé. Arômes gourmands de gâteau sucré et crème vanillée, avec une légère touche terreuse et épicée.',
+                            tarifs: [
+                                { weight: '10g', price: 120.00 },
+                            ]
                         }
                     ]
                 }
