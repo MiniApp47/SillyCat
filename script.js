@@ -160,7 +160,29 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'Others',
             quality: '🍯 OTHERS',
             image: 'CategNoel.jpg',
-            farms: [] // Vide pour l'instant
+            farms: [
+                {
+                    id: 'ALL_OTHERS',
+                    name: 'Tout le OTHERS',
+                    image: '',
+                    badgeText: 'Nouveau',
+                    products: [
+                        {
+                            id: 'STARDAWG OG 🍯',
+                            name: 'STARDAWG OG 🍯',
+                            farm: '🍬 SUGAR WAX 🍬',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductStar.png', // Remplace par ta vraie photo
+                            video: 'VideoStar.mp4',
+                            description: 'Un sugar wax hautement concentré, à la texture cristalline et fondante. Stardawg OG se distingue par une puissance marquée et une richesse aromatique intense, mêlant des notes diesel, terreuses et légèrement citronnées. Un concentré premium, profond en goût et en caractère, pensé pour les amateurs de sensations fortes.',
+                            tarifs: [
+                                { weight: '1g', price: 40.00 },
+                            ]
+                        }
+                    ]
+                }
+            ] // Vide pour l'instant
         }
     ];
 
