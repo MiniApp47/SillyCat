@@ -120,6 +120,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Nouveau',
                     products: [
                         {
+                            id: 'Sunset Sherbet - Dry Sift 45µ 🌅',
+                            name: 'Sunset Sherbet - Dry Sift 45µ 🌅',
+                            farm: '🇨🇭 Swiss Farm 🇨🇭',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductSun.png', // Remplace par ta vraie photo
+                            video: 'VideoSun.mp4',
+                            description: 'Dry sift premium, qui fond entre les doigts quand on appuie dessus, terpènes sucrés et crémeux, notes d’agrumes, de fruits rouges et touche dessert.',
+                            tarifs: [
+                                { weight: '1g', price: 10.00 },
+                            ]
+                        },
+                        {
                             id: 'MOUSSEUX',
                             name: 'JAUNE MOUSSEUX 🧽',
                             farm: '',
