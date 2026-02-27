@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '18g', price: 100.00 },
                                 { weight: '40g', price: 200.00 },
                             ]
-                        },
+                        }/* ,
                         {
                             id: 'T-Cake – Drysift 120µ 🫒🎂',
                             name: 'T-Cake – Drysift 120µ 🫒🎂',
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '10g', price: 120.00 },
                             ]
-                        }
+                        } */
                     ]
                 }
             ] 
@@ -181,11 +181,26 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Nouveau',
                     products: [
                         {
+                            id: 'MACHE - 0.9 🍎',
+                            name: 'MACHE - 0.9 🍎',
+                            farm: 'SillyCatSelection 🐱',
+                            promoEligible: false,
+                            type: 'Others',
+                            image: 'ProductMach.png', // Remplace par ta vraie photo
+                            video: 'VideoMach.mp4',
+                            description: 'Mache d\'une qualitée/puretée irréprochable, idéale pour vos soirées festives 😎',
+                            tarifs: [
+                                { weight: '1g', price: 70.00 },
+                                { weight: '2g', price: 130.00 },
+                                { weight: '5g', price: 280.00 },
+                            ]
+                        },
+                        {
                             id: 'STARDAWG OG 🍯',
                             name: 'STARDAWG OG 🍯',
                             farm: '🍬 SUGAR WAX 🍬',
                             promoEligible: false,
-                            type: 'Hash',
+                            type: 'Others',
                             image: 'ProductStar.png', // Remplace par ta vraie photo
                             video: 'VideoStar.mp4',
                             description: 'Un sugar wax hautement concentré, à la texture cristalline et fondante. Stardawg OG se distingue par une puissance marquée et une richesse aromatique intense, mêlant des notes diesel, terreuses et légèrement citronnées. Un concentré premium, profond en goût et en caractère, pensé pour les amateurs de sensations fortes.',
