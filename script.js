@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'BLUE_ZUSHI',
                             name: 'BLUE ZUSHI 🥶🍣',
-                            farm: '',
+                            farm: 'SillyCatSelection 🐱',
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductBlue.png', // Remplace par ta vraie photo : 'BlueZushi.jpg'
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'ZOAP',
                             name: 'ZOAP 🫧',
-                            farm: '',
+                            farm: 'SillyCatSelection 🐱',
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductZoap.png', // Remplace par ta vraie photo : 'BlueZushi.jpg'
@@ -119,6 +119,34 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'CategHash.jpg',
                     badgeText: 'Nouveau',
                     products: [
+                          {
+                            id: 'Candy Kush - Dry sift 45µ 🍬',
+                            name: 'Candy Kush - Dry sift 45µ 🍬',
+                            farm: 'Kilogrammes Farm ⚖️',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductCandy.png', // Remplace par ta vraie photo
+                            video: 'VideoCandy.mp4',
+                            description: 'Un hash drysift 45 microns ultra propre, bien sec qui se casse légèrement sous les doigts. Profil très candy / sucré, avec des notes de bonbon, kush crémeuse et une petite touche fruitée. La fumée est douce et savoureuse, avec un effet relaxant mais joyeux.',
+                            tarifs: [
+                                { weight: '1g', price: 10.00 },
+                            ]
+                        },
+                        {
+                            id: 'MOUSSEUX',
+                            name: 'Mousseux Prada 🌟',
+                            farm: 'SillyCatSelection 🐱',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductPrada.png', // Remplace par ta vraie photo
+                            video: 'VideoPrada.mp4',
+                            description: 'Souvent utilisé pour décrire un haschisch artisanal jaune/clair, il offre un goût doux et crémeux, parfois légèrement noisette ou miel, avec une sensation rond et onctueuse en bouche. Ce type de hash peut évoquer une expérience plus classique et chaleureuse que les profils fruités modernes.',
+                            tarifs: [
+                                { weight: '1g', price: 6.00 },
+                                { weight: '18g', price: 100.00 },
+                                { weight: '40g', price: 200.00 },
+                            ]
+                        },
                         {
                             id: 'Sunset Sherbet - Dry Sift 45µ 🌅',
                             name: 'Sunset Sherbet - Dry Sift 45µ 🌅',
@@ -130,21 +158,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: 'Dry sift premium, qui fond entre les doigts quand on appuie dessus, terpènes sucrés et crémeux, notes d’agrumes, de fruits rouges et touche dessert.',
                             tarifs: [
                                 { weight: '1g', price: 10.00 },
-                            ]
-                        },
-                        {
-                            id: 'MOUSSEUX',
-                            name: 'JAUNE MOUSSEUX 🧽',
-                            farm: '',
-                            promoEligible: false,
-                            type: 'Hash',
-                            image: 'ProductMousse.png', // Remplace par ta vraie photo
-                            video: 'VideoMousse.mov',
-                            description: 'Souvent utilisé pour décrire un haschisch artisanal jaune/clair, il offre un goût doux et crémeux, parfois légèrement noisette ou miel, avec une sensation rond et onctueuse en bouche. Ce type de hash peut évoquer une expérience plus classique et chaleureuse que les profils fruités modernes.',
-                            tarifs: [
-                                { weight: '1g', price: 6.00 },
-                                { weight: '18g', price: 100.00 },
-                                { weight: '40g', price: 200.00 },
                             ]
                         }/* ,
                         {
