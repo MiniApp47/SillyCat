@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'BLUE_ZUSHI',
                             name: 'BLUE ZUSHI 🥶🍣',
-                            farm: 'SillyCatSelection 🐱',
+                            farm: 'SillyCatSelection 😸',
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductBlue.png', // Remplace par ta vraie photo : 'BlueZushi.jpg'
@@ -87,14 +87,14 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'ZOAP',
                             name: 'ZOAP 🫧',
-                            farm: 'SillyCatSelection 🐱',
+                            farm: 'SillyCatSelection 😸',
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductZoap.png', // Remplace par ta vraie photo : 'BlueZushi.jpg'
                             video: 'VideoZoap.mov', 
                             description: 'Un mélange fruité et floral dominé par des touches de abricot, pomme et parfois une saveur légèrement “savonneuse” douce, assorties d’un fond terrestre subtil. Le tout donne une fumée fluide et rafraîchissante, parfaite pour ceux qui aiment les profils aromatiques originaux.',
                             tarifs: [
-                                { weight: '1g', price: 10.00 },
+                                { weight: '1g', price: 9.00 },
                             ]
                         },
                         
@@ -120,19 +120,33 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Nouveau',
                     products: [
                           {
+                            id: 'TWF - Dry Sift 120μ 🏳️🍊',
+                            name: 'TWF - Dry Sift 120μ 🏳️🍊',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductTW.png', 
+                            video: 'VideoTW.mp4',
+                            description: 'Une résine claire ultra fine, parfaitement sèche et pétante qui s’effrite au moindre contact. \n Au goût un mélange de notes sucrées, crémeuses et légèrement épicées..',
+                            tarifs: [
+                                { weight: '1g', price: 12.00 },
+                                { weight: '9g', price: 100.00 },
+                            ]
+                        },
+                          {
                             id: 'Candy Kush - Dry sift 45µ 🍬',
                             name: 'Candy Kush - Dry sift 45µ 🍬',
                             farm: 'Kilogrammes Farm ⚖️',
                             promoEligible: false,
                             type: 'Hash',
-                            image: 'ProductCandy.png', // Remplace par ta vraie photo
+                            image: 'ProductCandy.png', 
                             video: 'VideoCandy.mp4',
                             description: 'Un hash drysift 45 microns ultra propre, bien sec qui se casse légèrement sous les doigts. Profil très candy / sucré, avec des notes de bonbon, kush crémeuse et une petite touche fruitée. La fumée est douce et savoureuse, avec un effet relaxant mais joyeux.',
                             tarifs: [
-                                { weight: '1g', price: 10.00 },
+                                { weight: '1g', price: 9.00 },
                             ]
                         },
-                        {
+                      /*   {
                             id: 'MOUSSEUX',
                             name: 'Mousseux Prada 🌟',
                             farm: 'SillyCatSelection 🐱',
@@ -146,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '18g', price: 100.00 },
                                 { weight: '40g', price: 200.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'Sunset Sherbet - Dry Sift 45µ 🌅',
                             name: 'Sunset Sherbet - Dry Sift 45µ 🌅',
@@ -196,7 +210,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'MACHE - 0.9 🍎',
                             name: 'MACHE - 0.9 🍎',
-                            farm: 'SillyCatSelection 🐱',
+                            farm: 'SillyCatSelection 😸',
                             promoEligible: false,
                             type: 'Others',
                             image: 'ProductMach.png', // Remplace par ta vraie photo
