@@ -119,6 +119,32 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'CategHash.jpg',
                     badgeText: 'Nouveau',
                     products: [
+                        {
+                            id: 'Jaune mousseux 🧽',
+                            name: 'Jaune mousseux 🧽',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductJM.png', 
+                            video: 'VideoJM.mp4',
+                            description: 'Un bon hash mousseux crémeux qui s’effrite dès qu’on pose les doigts dessus, parfait pour fumer la journée.',
+                            tarifs: [
+                                { weight: '1g', price: 6.00 },
+                            ]
+                        },
+                        {
+                            id: 'Blue Dream - Dry Sift 45μ 🦋',
+                            name: 'Blue Dream - Dry Sift 45μ 🦋',
+                            farm: 'Kilogrammes Farm ⚖️',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductBlue1.png', 
+                            video: 'VideoBlue.mp4',
+                            description: 'Un drysift crémeux et fruité qui fond entre les doigts.',
+                            tarifs: [
+                                { weight: '1g', price: 10.00 },
+                            ]
+                        },
                           {
                             id: 'TWF - Dry Sift 120μ 🏳️🍊',
                             name: 'TWF - Dry Sift 120μ 🏳️🍊',
