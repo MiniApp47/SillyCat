@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '9g', price: 100.00 },
                             ]
                         },
-                          {
+                        /*   {
                             id: 'Candy Kush - Dry sift 45µ 🍬',
                             name: 'Candy Kush - Dry sift 45µ 🍬',
                             farm: 'Kilogrammes Farm ⚖️',
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 9.00 },
                             ]
-                        },
+                        }, */
                       /*   {
                             id: 'MOUSSEUX',
                             name: 'Mousseux Prada 🌟',
@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '40g', price: 200.00 },
                             ]
                         }, */
-                        {
+                        /* {
                             id: 'Sunset Sherbet - Dry Sift 45µ 🌅',
                             name: 'Sunset Sherbet - Dry Sift 45µ 🌅',
                             farm: '🇨🇭 Swiss Farm 🇨🇭',
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 10.00 },
                             ]
-                        }/* ,
+                        } *//* ,
                         {
                             id: 'T-Cake – Drysift 120µ 🫒🎂',
                             name: 'T-Cake – Drysift 120µ 🫒🎂',
