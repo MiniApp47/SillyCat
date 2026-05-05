@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '20g', price: 200.00 },
                             ]
                         },
-                        {
+                   /*      {
                             id: 'ZOAP',
                             name: 'ZOAP 🫧',
                             farm: 'SillyCatSelection 😸',
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 9.00 },
                             ]
-                        },
+                        }, */
                         
                     ]
                 }
@@ -120,6 +120,32 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Nouveau',
                     products: [
                         {
+                            id: 'Mimosa Punch - Dry Sift 90μ 🥊🌸',
+                            name: 'Mimosa Punch - Dry Sift 90μ 🥊🌸',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductPun.png', 
+                            video: 'VideoPun.mp4',
+                            description: 'Un drysift avec une croûte marron foncé à l’extérieur et un intérieur bien clair, qui fond entre les doigts, et au goût des touches fruitées et un côté fromager qui sent fort 👌🏻',
+                            tarifs: [
+                                { weight: '1g', price: 11.00 },
+                            ]
+                        },
+                        {
+                            id: 'Barbara Bud - Double Static 🌹⚡️',
+                            name: 'Barbara Bud - Double Static 🌹⚡️',
+                            farm: '555 FARM 💎',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductBar.png', 
+                            video: 'VideoBar.mp4',
+                            description: 'Un double static d\'exception qui fond entre les doigts comme du beurre, une odeur de fleurs de dingue, une texture de folie, c\'est de la foudre 🤯',
+                            tarifs: [
+                                { weight: '1g', price: 18.00 },
+                            ]
+                        },
+                        {
                             id: 'Jaune mousseux 🧽',
                             name: 'Jaune mousseux 🧽',
                             farm: 'SillyCatSelection 😸',
@@ -132,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 6.00 },
                             ]
                         },
-                        {
+                  /*       {
                             id: 'Blue Dream - Dry Sift 45μ 🦋',
                             name: 'Blue Dream - Dry Sift 45μ 🦋',
                             farm: 'Kilogrammes Farm ⚖️',
@@ -144,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 10.00 },
                             ]
-                        },
+                        }, */
                           {
                             id: 'TWF - Dry Sift 120μ 🏳️🍊',
                             name: 'TWF - Dry Sift 120μ 🏳️🍊',
