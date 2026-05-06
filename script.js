@@ -70,6 +70,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Top',
                     products: [
                         {
+                            id: 'Super Silver Haze 🌲🍀',
+                            name: 'Super Silver Haze 🌲🍀',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductSSH.png',
+                            video: 'VideoSSH.mp4', 
+                            description: 'Une haze avec une forte odeur citronnée, la classique SSH tel qu’on la connaît 😎',
+                            tarifs: [
+                                { weight: '1g', price: 10.00 },
+                            ]
+                        },
+                        {
                             id: 'BLUE_ZUSHI',
                             name: 'BLUE ZUSHI 🥶🍣',
                             farm: 'SillyCatSelection 😸',
@@ -119,6 +132,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'CategHash.jpg',
                     badgeText: 'Nouveau',
                     products: [
+                        {
+                            id: 'Tarta Melon - Drysift 90u 🥧🍈',
+                            name: 'Tarta Melon - Drysift 90u 🥧🍈',
+                            farm: 'DRYTECH X GOLDEN FARM 🏅',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductTar.png', 
+                            video: 'VideoTar.mp4',
+                            description: 'Produit de malade d’une des farm les plus réputées du game du hash, une belle collab entre drytech et golden farm pour vous proposer ce produit de folie au goût sucré assez prononcé avec des touches de cake, c’est du sérieux 🤯',
+                            tarifs: [
+                                { weight: '1g', price: 14.00 },
+                            ]
+                        },
                         {
                             id: 'Mimosa Punch - Dry Sift 90μ 🥊🌸',
                             name: 'Mimosa Punch - Dry Sift 90μ 🥊🌸',
