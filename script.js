@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'CategWeed.png',
                     badgeText: 'Top',
                     products: [
-                        {
+                       /*  {
                             id: 'Super Silver Haze 🌲🍀',
                             name: 'Super Silver Haze 🌲🍀',
                             farm: 'SillyCatSelection 😸',
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 10.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'BLUE_ZUSHI',
                             name: 'BLUE ZUSHI 🥶🍣',
