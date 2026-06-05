@@ -295,9 +295,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoMach.mp4',
                             description: 'Mache d\'une qualitée/puretée irréprochable, idéale pour vos soirées festives 😎',
                             tarifs: [
-                                { weight: '1g', price: 70.00 },
-                                { weight: '2g', price: 130.00 },
-                                { weight: '5g', price: 280.00 },
+                                { weight: '1g', price: 60.00 },
                             ]
                         },
                         {
