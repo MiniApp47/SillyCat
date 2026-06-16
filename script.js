@@ -132,6 +132,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'CategHash.jpg',
                     badgeText: 'Nouveau',
                     products: [
+                         {
+                            id: 'Jaune mousseux 🧽',
+                            name: 'Jaune mousseux 🧽',
+                            farm: 'KINKS FARM 👑',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductJM.png', 
+                            video: 'VideoJM.mp4',
+                            description: 'Un bon hash mousseux crémeux qui s’effrite dès qu’on pose les doigts dessus, parfait pour fumer la journée.',
+                            tarifs: [
+                                { weight: '1g', price: 5.00 },
+                            ]
+                        },
                         {
                             id: 'Tarta Melon - Drysift 90u 🥧🍈',
                             name: 'Tarta Melon - Drysift 90u 🥧🍈',
@@ -169,19 +182,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: 'Un double static d\'exception qui fond entre les doigts comme du beurre, une odeur de fleurs de dingue, une texture de folie, c\'est de la foudre 🤯',
                             tarifs: [
                                 { weight: '1g', price: 18.00 },
-                            ]
-                        },
-                        {
-                            id: 'Jaune mousseux 🧽',
-                            name: 'Jaune mousseux 🧽',
-                            farm: 'SillyCatSelection 😸',
-                            promoEligible: false,
-                            type: 'Hash',
-                            image: 'ProductJM.png', 
-                            video: 'VideoJM.mp4',
-                            description: 'Un bon hash mousseux crémeux qui s’effrite dès qu’on pose les doigts dessus, parfait pour fumer la journée.',
-                            tarifs: [
-                                { weight: '1g', price: 6.00 },
                             ]
                         },
                   /*       {
@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 60.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'STARDAWG OG 🍯',
                             name: 'STARDAWG OG 🍯',
                             farm: '🍬 SUGAR WAX 🍬',
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 40.00 },
                             ]
-                        }
+                        } */
                     ]
                 }
             ] // Vide pour l'instant
