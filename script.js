@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 11.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Barbara Bud - Double Static 🌹⚡️',
                             name: 'Barbara Bud - Double Static 🌹⚡️',
                             farm: '555 FARM 💎',
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 18.00 },
                             ]
-                        },
+                        }, */
                   /*       {
                             id: 'Blue Dream - Dry Sift 45μ 🦋',
                             name: 'Blue Dream - Dry Sift 45μ 🦋',
