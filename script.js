@@ -133,6 +133,32 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Nouveau',
                     products: [
                          {
+                            id: 'MAC#1 - Dry Sift 150/73μ 🛸',
+                            name: 'MAC#1 - Dry Sift 150/73μ 🛸',
+                            farm: 'SWISS FARM 🇨🇭',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductMA.png', 
+                            video: 'VideoMA.mp4',
+                            description: 'Une sélection premium de dry sift issue de la variété MAC #1, tamisée entre 150 et 73 microns pour une texture sableuse et une excellente pureté. Son profil aromatique associe des notes crémeuses, d’agrumes, de diesel et une touche épicée, offrant une expérience riche et équilibrée. Fabriqué à partir de fleurs soigneusement sélectionnées pour préserver au mieux les terpènes et les caractéristiques de la variété.',
+                            tarifs: [
+                                { weight: '1g', price: 11.00 },
+                            ]
+                        },
+                         {
+                            id: 'Sherbet - Static 🍧',
+                            name: 'Sherbet - Static 🍧',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductSH.png', 
+                            video: 'VideoSH.mp4',
+                            description: 'Un Static d’exception révélant toute la richesse de la Sherbet. Une texture soyeuse et une pureté remarquable, sublimées par un bouquet gourmand mêlant crème, fruits sucrés et une subtile touche d’agrumes. Une sélection raffinée conçue pour les amateurs de terpènes d’élite.',
+                            tarifs: [
+                                { weight: '1g', price: 14.00 },
+                            ]
+                        },
+                         {
                             id: 'Jaune mousseux 🧽',
                             name: 'Jaune mousseux 🧽',
                             farm: 'KINKS FARM 👑',
@@ -145,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 5.00 },
                             ]
                         },
-                        {
+                        /* {
                             id: 'Tarta Melon - Drysift 90u 🥧🍈',
                             name: 'Tarta Melon - Drysift 90u 🥧🍈',
                             farm: 'DRYTECH X GOLDEN FARM 🏅',
@@ -170,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 11.00 },
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'Barbara Bud - Double Static 🌹⚡️',
                             name: 'Barbara Bud - Double Static 🌹⚡️',
