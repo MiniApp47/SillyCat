@@ -133,6 +133,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Nouveau',
                     products: [
                          {
+                            id: 'Banana - Dry Sift 45μ 🍌',
+                            name: 'Banana - Dry Sift 45μ 🍌',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductB.png', 
+                            video: 'VideoB.mp4',
+                            description: 'Très bon DrySift avec un goût fruité prononcé, une très bonne texture sèche et cassante, qui apporte une bonne défonce et un rapport qualité prix de fou 😎🦾',
+                            tarifs: [
+                                { weight: '1g', price: 9.00 },
+                            ]
+                        },
+                         {
                             id: 'MAC#1 - Dry Sift 150/73μ 🛸',
                             name: 'MAC#1 - Dry Sift 150/73μ 🛸',
                             farm: 'SWISS FARM 🇨🇭',
@@ -303,7 +316,7 @@ document.addEventListener('DOMContentLoaded', function () {
             farm: '',
             type: 'Others',
             quality: '🍯 OTHERS',
-            image: 'CategNoel.jpg',
+            image: 'CategPharma.jpg',
             farms: [
                 {
                     id: 'ALL_OTHERS',
