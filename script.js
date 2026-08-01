@@ -83,18 +83,42 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         }, */
                         {
+                            id: 'CANDY WAYMO',
+                            name: 'CANDY WAYMO 🇺🇸🍭',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductCW.png', 
+                            video: 'VideoCW.mp4', 
+                            description: 'Une variété californienne aux arômes intenses de bonbons, de fruits exotiques et de notes crémeuses. Des fleurs denses et très résineuses, appréciées pour leur profil terpénique gourmand et leur qualité premium.',
+                            tarifs: [
+                                { weight: '1g', price: 15.00 },
+                            ]
+                        },
+                        {
+                            id: 'DREAM',
+                            name: 'BLUE DREAM 🇺🇸🦋',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductDream.png', 
+                            video: 'VideoDream.mp4', 
+                            description: 'Une génétique californienne emblématique aux arômes sucrés de myrtille, d’agrumes et de pin. Des fleurs résineuses au visuel premium, appréciées pour leur profil terpénique riche et leur saveur fruitée.',
+                            tarifs: [
+                                { weight: '1g', price: 15.00 },
+                            ]
+                        },
+                        {
                             id: 'BLUE_ZUSHI',
                             name: 'BLUE ZUSHI 🥶🍣',
                             farm: 'SillyCatSelection 😸',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductBlue.png', // Remplace par ta vraie photo : 'BlueZushi.jpg'
+                            image: 'ProductBlue.png', 
                             video: 'VideoBlue.mov', 
                             description: 'Un profil de goût fruité et frais où les notes de baies sucrées et agrumes légers dansent avec une touche mentholée/herbale. En bouche, on retrouve une douceur presque bonbon suivie d’un arrière-goût terreux et légèrement épicé qui prolonge la fumée de manière très agréable.',
                             tarifs: [
-                                { weight: '1g', price: 12.00 },
-                                { weight: '9g', price: 100.00 },
-                                { weight: '20g', price: 200.00 },
+                                { weight: '1g', price: 11.00 },
                             ]
                         },
                    /*      {
@@ -334,7 +358,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoMach.mp4',
                             description: 'Mache d\'une qualitée/puretée irréprochable, idéale pour vos soirées festives 😎',
                             tarifs: [
-                                { weight: '1g', price: 60.00 },
+                                { weight: '0.5g', price: 40.00 },
+                                { weight: '1g', price: 70.00 },
+                                { weight: '2g', price: 130.00 },
+                                { weight: '5g', price: 300.00 },
+                                { weight: '10g', price: 500.00 },
                             ]
                         },
                        /*  {
