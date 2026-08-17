@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 10.00 },
                             ]
                         }, */
-                          {
+                         /*  {
                             id: 'TWF - Dry Sift 120μ 🏳️🍊',
                             name: 'TWF - Dry Sift 120μ 🏳️🍊',
                             farm: 'SillyCatSelection 😸',
@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 12.00 },
                                 { weight: '9g', price: 100.00 },
                             ]
-                        },
+                        }, */
                         /*   {
                             id: 'Candy Kush - Dry sift 45µ 🍬',
                             name: 'Candy Kush - Dry sift 45µ 🍬',
