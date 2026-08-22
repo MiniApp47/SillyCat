@@ -69,6 +69,32 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'CategWeed.png',
                     badgeText: 'Top',
                     products: [
+                        {
+                            id: 'G-13 🌲',
+                            name: 'G-13 🌲',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductG13.png', 
+                            video: 'VideoG13.mp4', 
+                            description: 'Un profil aromatique riche et marqué, mêlant des notes terreuses, boisées et légèrement épicées. Une variété au caractère prononcé, idéale pour les amateurs de saveurs profondes et authentiques.',
+                            tarifs: [
+                                { weight: '1g', price: 10.00 },
+                            ]
+                        },
+                        {
+                            id: 'Lemon Haze 🍋',
+                            name: 'Lemon Haze 🍋',
+                            farm: 'SillyCatSelection 😸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductCW.png', 
+                            video: 'VideoCW.mp4', 
+                            description: 'Une variété aux notes fraîches et citronnées, avec un profil aromatique vif et acidulé. Un parfum intense et reconnaissable, parfait pour les amateurs de saveurs fruitées et zestées.',
+                            tarifs: [
+                                { weight: '1g', price: 10.00 },
+                            ]
+                        },
                        /*  {
                             id: 'Super Silver Haze 🌲🍀',
                             name: 'Super Silver Haze 🌲🍀',
@@ -91,19 +117,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             image: 'ProductCW.png', 
                             video: 'VideoCW.mp4', 
                             description: 'Une variété californienne aux arômes intenses de bonbons, de fruits exotiques et de notes crémeuses. Des fleurs denses et très résineuses, appréciées pour leur profil terpénique gourmand et leur qualité premium.',
-                            tarifs: [
-                                { weight: '1g', price: 15.00 },
-                            ]
-                        },
-                        {
-                            id: 'DREAM',
-                            name: 'BLUE DREAM 🇺🇸🦋',
-                            farm: 'SillyCatSelection 😸',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductDream.png', 
-                            video: 'VideoDream.mp4', 
-                            description: 'Une génétique californienne emblématique aux arômes sucrés de myrtille, d’agrumes et de pin. Des fleurs résineuses au visuel premium, appréciées pour leur profil terpénique riche et leur saveur fruitée.',
                             tarifs: [
                                 { weight: '1g', price: 15.00 },
                             ]
@@ -156,6 +169,32 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'CategHash.jpg',
                     badgeText: 'Nouveau',
                     products: [
+                         {
+                            id: 'Gelato - Frozen 🍨',
+                            name: 'Gelato - Frozen 🍨',
+                            farm: 'CleanSift 🫧',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductG.png', 
+                            video: 'VideoG.mp4',
+                            description: 'Une sélection de fleurs premium aux arômes intenses, travaillées en Frozen Sift pour préserver au maximum les terpènes, la fraîcheur et le profil aromatique. Une expérience riche, gourmande et ultra parfumée.',
+                            tarifs: [
+                                { weight: '1g', price: 16.00 },
+                            ]
+                        },
+                         {
+                            id: 'Forbidden Callippo - Frozen 🍇',
+                            name: 'Forbidden Callippo - Frozen 🍇',
+                            farm: 'CleanSift 🫧',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductFC.png', 
+                            video: 'VideoFC.mp4',
+                            description: 'Un profil ultra gourmand aux notes fruitées et sucrées, avec une belle intensité aromatique. Un Frozen premium pensé pour les amateurs de saveurs riches, fraîches et persistantes.',
+                            tarifs: [
+                                { weight: '1g', price: 16.00 },
+                            ]
+                        },
                          {
                             id: 'Banana - Dry Sift 45μ 🍌',
                             name: 'Banana - Dry Sift 45μ 🍌',
