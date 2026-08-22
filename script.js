@@ -170,6 +170,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Nouveau',
                     products: [
                          {
+                            id: 'Peach Ozz - Dry Sift 73µ 🍑',
+                            name: 'Peach Ozz - Dry Sift 73µ 🍑',
+                            farm: 'Tamuda Farm 🪷',
+                            promoEligible: false,
+                            type: 'Hash',
+                            image: 'ProductOZ.png', 
+                            video: 'VideoOZ.mp4',
+                            description: 'Une variété aux notes fruitées et sucrées de pêche, avec une touche exotique. Profil aromatique gourmand, intense et bien équilibré, avec une finition fraîche et savoureuse.',
+                            tarifs: [
+                                { weight: '1g', price: 10.00 },
+                            ]
+                        },
+                         {
                             id: 'Gelato - Frozen 🍨',
                             name: 'Gelato - Frozen 🍨',
                             farm: 'CleanSift 🫧',
