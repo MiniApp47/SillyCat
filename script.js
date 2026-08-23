@@ -88,8 +88,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'SillyCatSelection 😸',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductCW.png', 
-                            video: 'VideoCW.mp4', 
+                            image: 'ProductLM.png', 
+                            video: 'VideoLM.mp4', 
                             description: 'Une variété aux notes fraîches et citronnées, avec un profil aromatique vif et acidulé. Un parfum intense et reconnaissable, parfait pour les amateurs de saveurs fruitées et zestées.',
                             tarifs: [
                                 { weight: '1g', price: 10.00 },
