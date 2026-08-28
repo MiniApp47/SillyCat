@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 15.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'BLUE_ZUSHI',
                             name: 'BLUE ZUSHI 🥶🍣',
                             farm: 'SillyCatSelection 😸',
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 11.00 },
                             ]
-                        },
+                        }, */
                    /*      {
                             id: 'ZOAP',
                             name: 'ZOAP 🫧',
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 10.00 },
                             ]
                         },
-                         {
+                       /*   {
                             id: 'Gelato - Frozen 🍨',
                             name: 'Gelato - Frozen 🍨',
                             farm: 'CleanSift 🫧',
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 16.00 },
                             ]
-                        },
+                        }, */
                          {
                             id: 'Forbidden Callippo - Frozen 🍇',
                             name: 'Forbidden Callippo - Frozen 🍇',
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 16.00 },
                             ]
                         },
-                         {
+                        /*  {
                             id: 'Banana - Dry Sift 45μ 🍌',
                             name: 'Banana - Dry Sift 45μ 🍌',
                             farm: 'SillyCatSelection 😸',
@@ -220,8 +220,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 9.00 },
                             ]
-                        },
-                         {
+                        }, */
+                       /*   {
                             id: 'MAC#1 - Dry Sift 150/73μ 🛸',
                             name: 'MAC#1 - Dry Sift 150/73μ 🛸',
                             farm: 'SWISS FARM 🇨🇭',
@@ -233,8 +233,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 11.00 },
                             ]
-                        },
-                         {
+                        }, */
+                        /*  {
                             id: 'Sherbet - Static 🍧',
                             name: 'Sherbet - Static 🍧',
                             farm: 'SillyCatSelection 😸',
@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '1g', price: 14.00 },
                             ]
-                        },
+                        }, */
                          {
                             id: 'Jaune mousseux 🧽',
                             name: 'Jaune mousseux 🧽',
@@ -1530,14 +1530,14 @@ if (categoryCard) {
            } */
 
         // Clic sur "Confirmer la commande" (VERSION COPIER/COLLER - LA SEULE FIABLE)
-        if (target.closest('#confirm-order-button')) {
+       /*  if (target.closest('#confirm-order-button')) {
 
             // 1. TON PSEUDO TELEGRAM
             const targetUsername = 'THEGAZCOMMANDE';
 
             // 2. On prépare le message
             let message = formatOrderMessage();
-            message = message.replace(/\*/g, ''); // On nettoie
+            message = message.replace(/\g, ''); // On nettoie
 
             // 3. (Optionnel mais cool) On copie quand même dans le presse-papier en backup
             // copyToClipboard(message);
@@ -1547,7 +1547,7 @@ if (categoryCard) {
             const telegramUrl = `https://t.me/${targetUsername}?text=${encodedMessage}`;
 
             tg.openLink(telegramUrl);
-        }
+        } */
 
     });
 
